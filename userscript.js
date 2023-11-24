@@ -14,7 +14,8 @@
 
   const originalScriptUrl =
     "https://fe-1255520126.file.myqcloud.com/game/static/js/zfj.7c37b514.chunk.js";
-  const customScriptUrl = "http://localhost:8080/your-custom-script.js"; // Replace with your local server URL
+  const customScriptUrl =
+    "https://raw.githubusercontent.com/zimoluo/battleship-breaker/main/breaker-script.js"; // Replace with your local server URL
 
   // Intercept and replace script tags as soon as they are added to the document
   const observer = new MutationObserver((mutations) => {
